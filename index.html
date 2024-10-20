@@ -6,6 +6,19 @@
     <meta name="description" content="Explore the transformative world of Zen philosophy and mental health. Discover mindfulness practices, insightful articles, and personal reflections that inspire a balanced, peaceful life. Join us on a journey to inner tranquility and emotional well-being.">
     <title>Blog of Zen</title>
     <link rel="styles" href="/styles/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: { screens: {
+            sm: '480px'
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
     <header>
@@ -13,9 +26,9 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Blogs</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="blogs.html">Blogs</a>
                 </li>
             </ul>
         </nav>
