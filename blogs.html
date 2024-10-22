@@ -5,31 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZenMind</title>
     <meta name="description" content="Explore our latest blog posts on Zen philosophy, mindfulness, and mental health.">
-    <link rel="styles" href="/styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <main>
-        <h2>Blogs</h2>
+<body class="bg-gray-100 text-gray-800 font-sans">
 
-        <section>
-            <article id="article1">
-                <h3>Understanding Zen Philosophy</h3>
+    <header class="bg-white shadow">
+        <nav class="container mx-auto px-4 py-4">
+            <ul class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                <li><a href="index.html" class="text-blue-500 hover:underline">Home</a></li>
+                <li><a href="about.html" class="text-blue-500 hover:underline">About</a></li>
+                <li><a href="blogs.html" class="text-blue-500 hover:underline">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-6">
+        <h2 class="text-2xl font-semibold mb-4">Blogs</h2>
+        
+        <section class="space-y-6">
+            <article id="article1" class="p-4 bg-white rounded shadow hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-medium">Understanding Zen Philosophy</h3>
                 <p>A deeper look into the concepts and teachings of Zen philosophy. Explore how these principles can enhance your daily life.</p>
-                <p><a href="article1.html">Read more</a></p>
+                <p><a href="article1.html" class="text-blue-500 hover:underline">Read more</a></p>
             </article>
 
-            <article id="article2">
-                <h3>Mindfulness Practices</h3>
+            <article id="article2" class="p-4 bg-white rounded shadow hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-medium">Mindfulness Practices</h3>
                 <p>Techniques to incorporate mindfulness into your daily life for improved mental health. Discover simple exercises and tips.</p>
-                <p><a href="article2.html">Read more</a></p>
+                <p><a href="article2.html" class="text-blue-500 hover:underline">Read more</a></p>
             </article>
 
-            <article id="article3">
-                <h3>The Benefits of Meditation</h3>
+            <article id="article3" class="p-4 bg-white rounded shadow hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-medium">The Benefits of Meditation</h3>
                 <p>Learn about the various benefits of meditation for mental health and overall well-being. Start your meditation journey today!</p>
-                <p><a href="article3.html">Read more</a></p>
+                <p><a href="article3.html" class="text-blue-500 hover:underline">Read more</a></p>
             </article>
         </section>
     </main>
+
 </body>
 </html>

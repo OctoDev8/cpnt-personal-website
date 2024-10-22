@@ -5,53 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the transformative world of Zen philosophy and mental health. Discover mindfulness practices, insightful articles, and personal reflections that inspire a balanced, peaceful life. Join us on a journey to inner tranquility and emotional well-being.">
     <title>Blog of Zen</title>
-    <link rel="styles" href="/styles/main.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: { screens: {
-            sm: '480px'
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Zen Mind</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="blogs.html">Blogs</a>
-                </li>
-            </ul>
-        </nav>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4">
+            <h1 class="text-2xl font-bold">Zen Mind</h1>
+            <nav>
+                <ul class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                    <li><a href="index.html" class="text-blue-500 hover:underline">Home</a></li>
+                    <li><a href="about.html" class="text-blue-500 hover:underline">About</a></li>
+                    <li><a href="blogs.html" class="text-blue-500 hover:underline">Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Welcome to ZenMind</h2>
-            <h3>A blog website about philosophy and mental health</h3>
+
+    <main class="container mx-auto px-4 py-6">
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold">Welcome to ZenMind</h2>
+            <h3 class="text-lg">A blog website about philosophy and mental health</h3>
         </section>
+
         <section>
-            <h2>
-                Featured Articles
-            </h2>
-            <article>
-                <h3>Understanding Zen Philosophy</h3>
-                <p>An Introduction to the core principles of Zen</p>
-                <a href="#">Read More</a>
+            <h2 class="text-xl font-semibold mb-4 mt-6">Featured Articles</h2>
+            <article class="bg-white rounded shadow p-4 mb-4 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-lg font-medium">Understanding Zen Philosophy</h3>
+                <p>An introduction to the core principles of Zen.</p>
+                <a href="#" class="text-blue-500 hover:underline">Read More</a>
             </article>
         </section>
+
+        <section class="mt-6">
+            <h2 class="text-xl font-semibold mb-4">Zen Store</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image1.jpg" alt="Gallery Image 1" class="w-full h-100px rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 1</h3>
+                    <p>Placeholder description for image 1.</p>
+                </a>
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image2.jpg" alt="Gallery Image 2" class="w-full h-auto rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 2</h3>
+                    <p>Placeholder description for image 2.</p>
+                </a>
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image3.jpg" alt="Gallery Image 3" class="w-full h-48 object-cover rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 3</h3>
+                    <p>Placeholder description for image 3.</p>
+                </a>
+                </a>
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image4.jpg" alt="Gallery Image 4" class="w-full h-48 object-cover rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 4</h3>
+                    <p>Placeholder description for image 4.</p>
+                </a>
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image5.jpg" alt="Gallery Image 5" class="w-full h-auto rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 5</h3>
+                    <p>Placeholder description for image 5.</p>
+                </a>
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image6.jpg" alt="Gallery Image 6" class="w-full h-48 object-cover rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 6</h3>
+                    <p>Placeholder description for image 6.</p>
+                </a>
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image7.jpg" alt="Gallery Image 7" class="w-full h-48 object-cover rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 7</h3>
+                    <p>Placeholder description for image 7.</p>
+                </a>
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image8.jpg" alt="Gallery Image 8" class="w-full h-auto rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 8</h3>
+                    <p>Placeholder description for image 8.</p>
+                </a>
+                <a href="https://example.com" class="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow duration-300 block">
+                    <img src="images/image9.jpg" alt="Gallery Image 9" class="w-full h-auto rounded mb-2">
+                    <h3 class="text-lg font-medium">Placeholder Title 9</h3>
+                    <p>Placeholder description for image 9.</p>
+                </a>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="bg-white text-center py-4">
         <p>2024 ZenMind. All rights reserved.</p>
     </footer>
+
 </body>
 </html>

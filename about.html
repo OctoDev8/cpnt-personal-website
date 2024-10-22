@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About ZenMind</title>
-    <link rel="styles" href="/styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <meta name="description" content="Learn more about Your Zen Blog, our mission, and the journey of exploring Zen philosophy and mindfulness.">
 </head>
-<body>
-    <header>
-        <h1>ZenMind</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blogs.html">Blog</a></li>
-            </ul>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4">
+            <h1 class="text-2xl font-bold">ZenMind</h1>
+            <nav>
+                <ul class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                    <li><a href="index.html" class="text-blue-500 hover:underline">Home</a></li>
+                    <li><a href="about.html" class="text-blue-500 hover:underline">About</a></li>
+                    <li><a href="blogs.html" class="text-blue-500 hover:underline">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h2>About Us</h2>
+    <main class="container mx-auto px-4 py-6">
+        <h2 class="text-xl font-semibold mb-4">About Us</h2>
 
-        <section>
-            <h3>Our Mission</h3>
+        <section class="mb-6">
+            <h3 class="text-lg font-medium mb-2">Our Mission</h3>
             <p>At Your Zen Blog, we aim to explore the teachings of Zen philosophy and how they can enhance mental health and well-being. We believe in the power of mindfulness, meditation, and self-reflection to bring peace and clarity to our lives.</p>
         </section>
 
-        <section>
-            <h3>Meet the Author</h3>
+        <section class="mb-6">
+            <h3 class="text-lg font-medium mb-2">Meet the Author</h3>
             <p>Hello! I'm Gabriel, a passionate advocate for mental health and a dedicated student of Zen philosophy. Through this blog, I share insights, resources, and personal experiences to help others on their journey to mindfulness and inner peace.</p>
         </section>
 
         <section>
-            <h3>What You'll Find Here</h3>
+            <h3 class="text-lg font-medium mb-2">What You'll Find Here</h3>
             <p>Our blog features articles on various topics, including:</p>
-            <ul>
+            <ul class="list-disc ml-5 mb-4">
                 <li>Zen philosophy and its practical applications</li>
                 <li>Mindfulness practices and techniques</li>
                 <li>Personal stories and reflections</li>
